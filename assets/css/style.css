@@ -1,0 +1,47 @@
+#home{
+  background-image: url(../img/bg-home.jpg); /* es la imagen de portada*/
+  background-position: center;
+  background-repeat: no-repeat; /* no repetira la imagen de fonfo*/
+  background-size:cover;/* cover para cubrir todo el contenedor*/
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#home .container{
+  color: white; /* blanco para el text*/
+  padding: 70px;
+}
+
+.text-home{
+  font-size: 53px; /* tamaño de letra*/
+}
+.btn-home{
+  background: #2ECC71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 50px;
+  font-weight: 500;
+  text-transform: uppercase; /* text a mayuscula*/
+  margin-top: 60px;
+  display: inline-block;
+  font-size: 14px;
+}
+/* para la pagina de servicio completa*/
+#services{
+  background-color: #A9BCF5;
+  text-align: center;
+  color: #fff;
+  padding:  90px 7px;
+}
+/* para las cajas de imagen*/
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+/*para el txto*/
+.text-services{
+  font-size: 35px;/*tamaño de letra*/
+  letter-spacing: 2px /* para espaccio entre cada letra*/
+}
